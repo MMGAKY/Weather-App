@@ -1,0 +1,154 @@
+body {
+    background-color: #1E202B;
+}
+
+nav {
+    background-color: #1E202B;
+    color: #fff;
+}
+
+
+.my-icon {
+    background-color: #fff;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.my-nav a {
+
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    margin-left: 15px;
+    transition: 0.3s ease-in-out;
+
+
+}
+
+.my-nav .active,
+.my-nav a:hover {
+    color: #009ad8 !important;
+    border: 2px solid #009ad8 !important;
+    border-radius: 20px;
+    padding: 5px 15px !important;
+}
+
+
+.main-content .text {
+    background: #262936;
+    border-radius: 40px;
+    padding: 20px 30px;
+    font-size: 13px;
+    font-size: 0.9285714286em;
+
+    margin-top: 20px;
+
+}
+
+.main-content .text a {
+    text-decoration: none;
+}
+
+.main-content .text a:hover {
+
+    text-decoration: underline;
+}
+
+
+.second-content .contact-info img {
+    width: 20px;
+}
+
+.second-content .contact-details {
+    background-color: #262936;
+
+    width: 80%;
+    overflow: hidden;
+    border-radius: 10px;
+    padding-top: 10px;
+
+}
+
+
+form input {
+    background-color: #1E202B;
+    border: 1px solid gray;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+form textarea {
+    background-color: #1E202B;
+    border: 1px solid gray;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 90%;
+    height: 130px;
+    color: #fff;
+}
+
+
+
+
+.footer {
+    background-color: #262936;
+    color: #fff;
+}
+
+.footer .main {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.footer .enter-email {
+    width: 100%;
+    padding: 20px 50px;
+    background: #1e202b;
+    color: white;
+    border-radius: 30px;
+    border: none;
+}
+
+.footer .subscribe {
+    position: absolute;
+
+    top: 10px;
+    right: 30px;
+    padding: 10px 20px;
+    background: #009ad8;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.footer .social-links a {
+    list-style: none;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.footer .social-links i {
+    font-size: 25px;
+
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #1E202B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
